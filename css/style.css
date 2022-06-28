@@ -1,0 +1,243 @@
+@font-face {
+  font-family: Netflix;
+  src: url(NetflixSansRegular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Netflix;
+}
+
+#intro {
+  height: 695px;
+  background-image: url(bg.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  color: bisque;
+  text-align: center;
+  font-weight: 400;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+}
+#header img {
+  height: 75px;
+  width: 150px;
+  position: relative;
+  right: 550px;
+  top: 10px;
+}
+#btn {
+  background-color: rgb(229, 9, 20);
+  border: solid rgb(229, 9, 20);
+  position: relative;
+  font-size: 18px;
+  width: 80px;
+  height: 30px;
+  left: 600px;
+  top: -40px;
+  bottom: 10px;
+  border-radius: 4px;
+}
+#statement1 {
+  color: #fff;
+  margin-top: 140px;
+  margin-bottom: 1px;
+  font-size: 50px;
+}
+#statement0 {
+  margin-top: 1px;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+#statement2 {
+  margin-top: 10px;
+}
+#black{
+  height: 7px;
+  background-color:#313131;
+}
+#div,
+h2 {
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+#p1 {
+  margin-bottom: 6px;
+}
+#email {
+  height: 55px;
+  width: 450px;
+  text-align: left;
+  margin-bottom: 3px;
+  margin-right: 0px;
+  font-size: 17px;
+}
+button {
+  height: 54px;
+  position: relative;
+  top: 3px;
+  width: 230px;
+  color: #fff;
+  position: relative;
+  right: 5px;
+  background-color: rgb(229, 9, 20);
+  border: solid rgb(229, 9, 20);
+  margin-bottom: 0px;
+  font-size: 26px;
+}
+#android {
+  background-color: black;
+  color: #fff;
+  margin-top: #313131;
+  border-top: #313131;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+#androtext {
+  margin-left: 60px;
+}
+#android h1 {
+  padding-top: 70px;
+  text-align: left;
+  font-size: 40px;
+}
+#android h2 {
+  font-size: 25px;
+  display: flex;
+}
+#android img {
+  display: flex;
+  justify-content: space-between;
+  border: solid black;
+  height: 100%;
+  width: 100%;
+}
+#android a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+/*fAQ
+
+END*/
+#faq {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+#faq,
+h1 {
+  font-size: 39px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#faq .question,
+#faq .answer {
+  font-size: 25px;
+  background-color: #313131;
+  padding: 10px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#faq .question {
+  color: black;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#faq .question img {
+  width: 25px;
+  height: 25px;
+}
+#faq .answer {
+  display: none;
+}
+
+/*end*/
+#finemail {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+#email2 {
+  margin-top: 20px;
+  height: 55px;
+  width: 450px;
+  text-align: left;
+  margin-bottom: 3px;
+  margin-right: 0px;
+  font-size: 17px;
+  margin-bottom: 100px;
+}
+#lastbutton{
+  background-color: rgb(229, 9, 20);
+  position: relative;
+  right: 9px;
+  
+}
+#ref {
+  margin-top: 90px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #75757575;
+  display: flex;
+  justify-content: left;
+  margin-left: 220px;
+}
+#foot {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+  margin-right: 280px;
+  color: #313131;
+}
+#foot {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+}
+ul li {
+  list-style-type: none;
+}
+#foot a {
+  text-decoration: none;
+  color: #313131;
+}
+.list-1 {
+  width: 120px;
+  text-align: left;
+}
+.list-2 {
+  display: block;
+  text-align: left;
+}
+.list-3 {
+  display: block;
+  text-align: left;
+}
+.list-4 {
+  display: block;
+  text-align: left;
+}
+#signoff {
+  display: flex;
+  text-align: left;
+  margin-left: 250px;
+  font-size: 13px;
+  margin-top: 50px;
+  color: #313131;
+}
